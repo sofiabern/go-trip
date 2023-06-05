@@ -1,0 +1,54 @@
+@import "./reset.css";
+
+:root {
+  --container-width: 1270px;
+  --container-padding: 15px;
+  --second-color: rgba(15, 31, 28, 0.5);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f6f6f6;
+  color: #0f1f1c;
+}
+
+.none {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+  max-width: var(--container-width);
+}
+
+.container-right {
+  padding-left: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #428e5f -17.38%, #112120 78.4%), #204434;
+}
+
+/* Main */
+/* Hero */
+.hero {
+  position: relative;
+  min-height: 840px;
+  background: linear-gradient(to right, #428e5f -17.38%, #112120 78.4%), #204434;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 96px;
+  background-image: url(../images/bg.svg);
+  background-size: 100%;
+}
