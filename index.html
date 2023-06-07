@@ -12,6 +12,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header">
@@ -60,10 +74,108 @@
             </p>
             <button class="destinations-btn">Explore Now</button>
           </div>
-          <div class="destinations-swiper"></div>
+          <div class="destinations-slider">
+            <div class="slider-wrapper">
+              <div class="owl-carousel">
+                <img
+                  class="slider-item"
+                  src="./images/slider/slider-img-1.jpg"
+                  alt="a slider item"
+                />
+                <img
+                  class="slider-item"
+                  src="./images/slider/slider-img-2.jpg"
+                  alt="a slider item"
+                />
+                <img
+                  class="slider-item"
+                  src="./images/slider/slider-img-3.jpg"
+                  alt="a slider item"
+                />
+              </div>
+              <button class="slider-button btn-left">
+                <svg width="11px" height="14px">
+                  <use href="./images/icons.svg#arrow-left"></use>
+                </svg>
+              </button>
+              <button class="slider-button btn-right">
+                <svg width="11px" height="14px">
+                  <use href="./images/icons.svg#arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="customers">
+        <div class="container customers-flex">
+          <img
+            width="478px"
+            height="537px"
+            class="customers-img"
+            src="./images/girl-with-map.jpg"
+            alt="a girl with a map"
+          />
+          <div class="customers-text-wrapper">
+            <h2 class="customers-title">What do customers say about us?</h2>
+            <div class="feedback">
+              <div class="feedback-flex">
+                <div class="feedback-circle">
+                  <img
+                    class="customer-av"
+                    width="134px"
+                    height="134px"
+                    src="./images/tourist.png"
+                    alt="a customer"
+                  />
+                </div>
+                <div>
+                  <h3 class="customer-name">Alpanasap</h3>
+                  <p class="customer-place">Japung, Indonesia</p>
+                </div>
+              </div>
+              <p class="customer-feedback">
+                Very satisfying service makes it comfortable, a beautiful place
+                in the world.
+              </p>
+              <svg class="star-raiting" width="327px" height="59px">
+                <use href="./images/icons.svg#icon-stars"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prepare">
+        <div class="container">
+          <div class="prepare-bg">
+            <h2 class="prepare-title">
+              Prepare Yourself And Start Exploring With Us.
+            </h2>
+            <p class="prepare-text">There's the best discount for you today.</p>
+            <button class="prepare-btn">Get Started</button>
+            <svg class="icon-5" width="63" height="83">
+              <use href="./images/icons.svg#icon-5"></use>
+            </svg>
+            <svg class="icon-6" width="63" height="83">
+              <use href="./images/icons.svg#icon-6"></use>
+            </svg>
+          </div>
         </div>
       </section>
     </main>
     <footer></footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>
