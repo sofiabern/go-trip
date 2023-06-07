@@ -477,8 +477,11 @@ body {
 }
 
 .prepare-bg {
+  margin: 0 auto;
   padding-top: 116px;
   padding-bottom: 115px;
+  width: calc(100% - 200px);
+
   background-color: #ffffff;
   border-radius: 60px;
 }
@@ -536,11 +539,11 @@ body {
 
 .icon-5 {
   position: absolute;
-  right: 204px;
+  right: 408px;
   top: 82px;
 }
 .icon-6 {
   position: absolute;
-  left: 191px;
+  left: 408px;
   bottom: 199px;
 }
