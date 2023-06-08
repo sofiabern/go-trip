@@ -473,7 +473,7 @@ body {
 
 .prepare {
   position: relative;
-  padding-bottom: 135px;
+  padding-bottom: 144px;
 }
 
 .prepare-bg {
@@ -539,11 +539,72 @@ body {
 
 .icon-5 {
   position: absolute;
-  right: 408px;
+  right: 285px;
   top: 82px;
 }
 .icon-6 {
   position: absolute;
-  left: 408px;
+  left: 285px;
   bottom: 199px;
+}
+
+.subscribe {
+  padding-block: 99px;
+}
+
+.subscribe-title {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 494px;
+
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 82px;
+  text-align: center;
+
+  color: #0f1f1c;
+}
+
+.subscribe-form {
+  /* display: flex;
+  gap: 191px; */
+
+  margin: 0 auto;
+  padding-left: 46px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 15px;
+  max-width: 800px;
+
+  color: var(--second-color);
+
+  background-color: #ffffff;
+  border-radius: 35px;
+}
+
+.form-input {
+  margin-right: 132px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: var(--second-color);
+}
+
+.form-btn {
+  padding-right: 87px;
+  padding-top: 33px;
+  padding-left: 86px;
+  padding-bottom: 34px;
+  min-width: 300px;
+
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.5;
+
+  color: #ffffff;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%),
+    #ffffff;
+  border-radius: 35px;
 }
