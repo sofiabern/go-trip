@@ -8,7 +8,5 @@
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
   "arrowParens": "avoid",
-  "proseWrap": "always",
-  "useEmojis": true,
-  "rainbowParentheses": true
+  "proseWrap": "always"
 }
